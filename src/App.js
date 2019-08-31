@@ -34,6 +34,11 @@ class App extends React.Component {
               width: '50%',
             },
             title: 'EUR Price',
+            animation: {
+              startup: true,
+              easing: 'linear',
+              duration: 1500,
+            },
           }}
           rootProps={{ 'data-testid': '1' }}
         />
