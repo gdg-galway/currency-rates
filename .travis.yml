@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "node"
+warnings_are_errors: false
+install:
+  - npm install
+script:
+  - npm test
+  - npm run build
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: "KFsrcNxF6D2Q584EIedGUTNmy/JDrJUv53zonwkIWaOSVEzvAOVFqEMpyutbJYceRAyrHSbbYQF9k7vC0JMawHTbNgylXfAlCuUyl+Rr/NEzFPVH0H7X3OzFxGOpZHjXrWtC6c5qNvG5BxSIgQwHNjmfaL/LYelfncJXwcti4kDIVDc63VxHipcGfh36r/J6J3sD4XGdtcJQ05hngpZYHueN7B1aiUxo1Z5jd2ivbfPik766jYEQXQSS1737A5Eo2SF6I/AM/efHiqhCcZc5SI19j7VGSeoj3uJO+aVaaTI8p0n8VG/x36WLOOdOn0+c3Rh8zjcJHUSDvxzbGZG/YirdnEEHbU8sX+Wm/llkl3m69eDhAyQ34zQKAFW11qoYBoZ6Rl/LhiMKkokwxh7ThK4kCqdtEnntlEx0gfKR+arqIuu9T5njmNfEPwWf7blmhzZSRiWj3Ff5xvmGBwr26AFkFCViXOdtU6Iw7bR5i86nS5eBgrnMYpfliLZJMSYXNXDyWqdvVDELjHEcErikS0XiPQnlUWbUbpfzCEQEx2rNpnRB38f6nES7XW33vZ3/HdxLTHMUM4HOmfws+pdC7rzt46VVoQQw/hpGd4t/P8JV1wsJDBXazSuTh19+k9plMfG4FZl7gTsOB+EczGT7kYsUktnMhSbHsIxm2a8ryLQ="
