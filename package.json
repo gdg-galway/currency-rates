@@ -6,9 +6,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-google-charts": "^3.0.15",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "source-map-explorer": "^2.0.1"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
