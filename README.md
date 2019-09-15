@@ -20,7 +20,15 @@ npm run build
 
 ![Architecture](./react-google-charts-demo-architecture.png)
 
-## Deployment
+## How to setup Travis CI and Firebase deployment
+
+1. Ensure that your project has a repository on GitHub
+2. Navigate to `https://travis-ci.org/` and **login with GitHub**
+3. _TBD_
+4. _TBD_
+5. _TBD_
+
+## Deploy
 
 ```
 git add .
