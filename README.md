@@ -1,3 +1,5 @@
+# Deploy a React based web app on Firebase
+
 ## Usage
 
 ```
@@ -20,7 +22,7 @@ npm run build
 
 ![Architecture](./react-google-charts-demo-architecture.png)
 
-## How to setup Travis CI and Firebase deployment
+## How to setup the pipeline
 
 1. Ensure that your project has a repository on GitHub
 2. Navigate to `https://travis-ci.org/` and **login with GitHub**
