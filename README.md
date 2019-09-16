@@ -24,11 +24,15 @@ npm run build
 
 ## How to setup the pipeline
 
-1. Ensure that your project has a repository on GitHub
-2. Navigate to `https://travis-ci.org/` and **login with GitHub**
-3. _TBD_
-4. _TBD_
-5. _TBD_
+1. Make a new Firebase project
+2. Make a new repository on GitHub and upload initial code
+3. Enable that repository on Travis CI
+4. Configure Firebase
+5. Login on Firebase from the terminal
+6. `gem install travis`
+7. `travis encrypt "..........." -r gdg-galway/currency-rates`
+8. Update the `.travis.yml` file
+9. Push and build!
 
 ## Deploy
 
