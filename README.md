@@ -28,10 +28,23 @@ npm run build
 2. Make a new repository on GitHub and upload initial code
 3. Enable that repository on Travis CI
 4. Configure Firebase
-5. Login on Firebase from the terminal
-6. `gem install travis`
+
+   a. `sudo npm install firebase-tools -g`
+
+   b. `firebase login`
+
+   c. `firebase init`
+
+   d. Select `Hosting`
+
+   e. Public directory `build`
+
+   f. Single page app `Yes`
+
+5. `gem install travis`
+6. `firebase login:ci`
 7. `travis encrypt "..........." -r gdg-galway/currency-rates`
-8. Update the `.travis.yml` file
+8. Create/Update the `.travis.yml` file
 9. Push and build!
 
 ## Deploy
